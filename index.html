@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <style>
+        #board {
+            display: flex;
+            flex-wrap: wrap;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            font-size: 80px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+            margin-right: 1px;
+            margin-bottom: 1px;
+        }
+
+            .cell:nth-child(3n+3) {
+                margin-right: 0;
+            }
+
+        
+    </style>
+</head>
+<body>
+    <div id="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
